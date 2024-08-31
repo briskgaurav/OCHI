@@ -5,7 +5,7 @@ import Button from "./Button";
 
 function Home() {
   return (
-    <div data-scroll data-scroll-section data-scroll-speed="-.4" className="h-screen pt-24 lg:pt-16 w-full">
+    <div data-scroll data-scroll-section data-scroll-speed="-.4" className=" pt-24 lg:pt-16 w-full">
       {["We create", "eye-opening", "presentation"].map((elem, index) => (
         <div className="font-[Founders] px-10">
           {index === 1 ? (
@@ -44,8 +44,8 @@ function Home() {
           </span>
         </span>
       </div>
-      <motion.h3 initial={{scale:1}} animate={{scale:.9,opacity:1}} transition={{ease:"linear", duration:2,repeat:Infinity}}
-        className="absolute lg:relative lg:flex font-extrabold lg:items-center lg:justify-center lg:bottom-0 lg:left-0 bottom-[10%] left-[33%] mt-16 lg:mt-0  text-2xl text-zinc-400 pt-12">
+      <motion.h3 initial={{scale:1}} animate={{scale:.9,opacity:1}} transition={{ease:"linear", duration:1,repeat:Infinity}}
+        className=" flex font-extrabold items-end mix-blend-difference justify-center lg:bottom-0 lg:left-0 bottom-[10%] pb-4 left-[33%] pt-28  text-2xl text-zinc-400 lg:pt-12">
         Scroll Down
       </motion.h3>
     </div>

@@ -4,7 +4,7 @@ import React from "react";
 function About() {
   return (
      
-     <div className=" lg:py-20 w-full rounded-tl-2xl rounded-tr-2xl  font-[NeuMontreal] bg-[#CDEA68] ">
+     <div data-scroll data-scroll-speed="-.01" className=" lg:py-20 w-full rounded-tl-2xl rounded-tr-2xl  font-[NeuMontreal] bg-[#CDEA68] ">
       <div className="lg:h-[50vh] border-b-[1px] p-10 lg:p-16 border-zinc-700">
         <h1 className="lg:w-4/5 w-full text-2xl lg:text-[3.3vw] leading-none font-medium">
           Ochi is a strategic presentation agency for forward-thinking
